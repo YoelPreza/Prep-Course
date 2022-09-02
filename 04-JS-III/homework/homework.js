@@ -176,20 +176,19 @@ function empiezaConNueve(n) {
   return false;
 }
 
-
+// 10,10,20
 function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí  
-  var iguales = arreglo[0];
-  for(var i = 1; i < arreglo.length; i++){
-    if( arreglo[i] != iguales){
+  for(var i = 0; i <arreglo.length-1; i++){
 
-      return false;
-    }
-  }
+    if(arreglo[i] !== arreglo[i + 1]){
+   return false;}
+  } 
+
   return true;
-} 
+}
 
 
 function mesesDelAño(array) {
@@ -197,19 +196,17 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
-  var nuevaArray = []
-  for(var i = 0; i < array.length; i++){
-    if( array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre"){
-      nuevaArray.push(array[i])
-      }
-    }
+  var nuevoArray=[];
   
-  if(nuevaArray.length < 3 ){
-    return "No se encontraron los meses pedidos"
+  for(var i=0; i < array.length; i++ ){
+    if(array[i] === 'Enero' || array[i] === 'Marzo' || array[i] ==='Noviembre' ){
+    nuevoArray.push(array[i])
+    }
   }
-  return nuevaArray
+  if(nuevoArray.length < 3){
+    return "No se encontraron los meses pedidos";
+  }else {return nuevoArray;}
 }
-
 
 function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
