@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(182, 179, 179);
+    display: flex;
+}
+
+#datosgenerales{
+    position: relative ;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+.izquierda{
+    text-align:left;
+   /* display: inline;*/
+   width: 10px;
+   margin:0;
+   position: relative;
+   left: 10px;
+   color: #3b3cb2;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.derecha{
+    text-align:left;
+    position: relative;
+    left: 110px;
+    bottom: 24px;
+    margin:0 ;
+    
+}
+/* resume*/
+#cv{
+    height: 50px;
+    width: 289px;
+    background-color: #3b3cb2;
+    text-align: center;
+    font-size: 50px;
+
+    
+    color: white;
+    margin-left: 62px;
+    justify-content: center;
+    margin-top: 17px;
+
+
+      
+
+   
+}
+img{
+    width: 290px;
+   position: relative;
+    right: 20px;
+    
+}
+
+/* BARRA  LATERAL IZQ */
+#padre{
+    
+    height: 942px;
+    width: 250px;
+    padding: 0 20px;
+    margin-left: -290px;
+    margin-top: 70px;
+    background-color: white;
+    
+ 
+   
+}
+/* ------------------------------------------------------------------------- */
+
+    #contenedordepartes{
+width: 700px;
+height: 1000px;
+margin-left:auto;
+margin-right: auto;
+margin-top: 16px;
+position: relative;  
+background-color: transparent;
+    display:flex;
+        align-items:center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        
+       
+    }
+
+.textodelelemento{
+    display: block;
+    text-align: justify;
+    margin-left: 34px;
+    margin-right: 39px;
+    padding-top: 5px;
+    
+}
+
+.partes{
+    width: 776px;
+    height: 500px;
+    display: flex;
+  
+  background-color: white;
+  flex-direction: column;
+}
+
+#elemento1{
+    margin-bottom:5px;
+    height: 300px;
+}
+
+
+#elemento2{
+    margin:0px 0;
+}
+
+*#elemento3{
+    margin:5px 0;
+    
+}
+
+#elemento4{
+    margin-bottom: 5px;
+    height: 300px;
+
+}
+
+
+
+
+.titulos{
+    margin-left: 33px;
+    color: #3b3cb2;
+    font-family:'Franklin Gothic Medium';
+    margin-bottom: 9px;
+}
+    
+.syh{
+    font-size: 22px;
+    color: #3b3cb2;
+    font-family:'Franklin Gothic Medium';
+}
+
+p{
+    font-style:italic ;
+    font-family:  'Arial Narrow';
+    font-weight: bold;
+}
+
+#student{
+   
+    font-size: 30px;
+    color: gray;
+    border-bottom-style: solid;
+    text-align: center;
+}
