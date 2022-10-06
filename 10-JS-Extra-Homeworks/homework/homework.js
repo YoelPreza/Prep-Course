@@ -15,6 +15,7 @@ function deObjetoAmatriz(objeto){
     arrayNueva.push([clave,objeto[clave]]) //o ([clave,objeto.clave]) //
   }
 return arrayNueva;
+
 }
 
 
